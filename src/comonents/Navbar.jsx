@@ -30,7 +30,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar_wrapper">
-          <Link to="/" className="navbar_logo">
+          <Link to="/react-responsive-website" className="navbar_logo">
             TRVL <i className='fab fa-typo3'></i>
           </Link>
 
@@ -40,16 +40,16 @@ function Navbar() {
 
           <ul className={clicked ? 'nav_menu active' : 'nav_menu'}>
             <li className='nav_item'>
-              <Link to="/" className='nav_link' onClick={closeMobileMenu}>Home</Link>
+              <Link to="/react-responsive-website" className='nav_link' onClick={closeMobileMenu}>Home</Link>
             </li>
             <li className='nav_item'>
-              <Link to="/services" className='nav_link' onClick={closeMobileMenu}>Services</Link>
+              <Link to="/react-responsive-website/services" className='nav_link' onClick={closeMobileMenu}>Services</Link>
             </li>
             <li className='nav_item'>
-              <Link to="/products" className='nav_link' onClick={closeMobileMenu}>Products</Link>
+              <Link to="/react-responsive-website/products" className='nav_link' onClick={closeMobileMenu}>Products</Link>
             </li>
             <li className='nav_item'>
-              <Link to="/sign-up" className='nav_link_mobile' onClick={closeMobileMenu}>Sign Up</Link>
+              <Link to="/react-responsive-website/sign-up" className='nav_link_mobile' onClick={closeMobileMenu}>Sign Up</Link>
             </li>
           </ul>
           {
